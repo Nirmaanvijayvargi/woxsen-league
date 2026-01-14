@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+# WOXSEN LEAGUE — Sports Facility Booking System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Woxsen League is a **web-based sports booking prototype** built to improve how sports facilities are booked and managed on campus.
 
-## Available Scripts
+The project was created to replace a manual, paper-based booking process with a clearer, fairer, and more traceable digital system. This repository represents a **fully functioning prototype**, built for academic and demonstration purposes, not a production deployment.
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📌 Overview
 
-### `npm test`
+At the time of the project, sports facilities at Woxsen University were booked by physically visiting the SportsX facility and writing names in a register. This process was:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* time-consuming
+* prone to conflicts
+* difficult to track or verify
 
-### `npm run build`
+Woxsen League was built to solve this by introducing **online slot booking**, visibility into availability, and a digital record of who booked what and when.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+An additional idea explored was the use of a **QR-based ticket system**, allowing admins to verify bookings easily.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 👥 Users
 
-### `npm run eject`
+* Students
+* Faculty
+* Campus sports administrators
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Anyone eligible to use campus sports facilities could book slots through the system.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🧠 My Role
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This was a team project under the team name **SOCH**.
 
-## Learn More
+My contribution focused on **system-level thinking and feature ideation**, including:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* designing the sports card layout on user profiles
+* shaping the booking history flow
+* proposing the QR-code based booking verification
+* contributing to overall system design decisions
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+While I was not the primary implementer, I was actively involved in defining how the system should behave and scale.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Core Features
 
-### Analyzing the Bundle Size
+* **Online Slot Booking:** Book sports slots digitally without visiting SportsX
+* **Availability View:** Clear visibility into available and occupied slots
+* **Booking History:** Users can see their past and upcoming bookings
+* **Admin Dashboard:** Admins can view who booked which slot and when
+* **QR Code Tickets (Prototype):** Generated after booking for quick verification
+* **Conflict Reduction:** Eliminates disputes by maintaining a single source of truth
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🛠️ Tech Stack (Software)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* **Frontend:** React
+* **Database:** Used for storing bookings, users, and slot data
+* **Version Control:** Git & GitHub
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🔧 Hardest Technical Challenge
 
-### Deployment
+One of the most challenging aspects of the project was conceptualizing and integrating the **QR-code based booking flow**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This involved thinking through:
 
-### `npm run build` fails to minify
+* how tickets should be generated after booking
+* how admins would scan and verify them
+* how QR codes tie back to booking records
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Designing the **sports cards** and ensuring booking information was presented clearly without clutter was another important challenge.
+
+---
+
+## 📊 Project Status
+
+* ✅ Fully functioning prototype
+* 🚫 Not deployed for real-world use
+
+The system is usable and demo-ready but was built as an academic project.
+
+---
+
+## 👥 Team
+
+* Prabheesh Singh
+* Ronak Kadyan
+* Nakshatra Vijay Vargi
+* Nirmaan Vijay Vargi
+
+---
+
+## 📂 Project Structure
+
+```
+├── src/              # React source files
+├── public/           # Static assets
+├── package.json      # Project dependencies
+└── README.md         # Project documentation
+```
+
+---
+
+## 🎯 What I’m Proud Of
+
+* contributing system-level ideas to improve fairness and clarity
+* helping shape features that reduce real user frustration
+* exploring QR-based verification instead of manual checks
+* being part of a team that built a usable, end-to-end prototype
+
+---
+
+## 📚 Learnings
+
+* manual processes break down at scale
+* system design decisions matter even before writing code
+* small UX features can prevent large real-world conflicts
+* collaboration is as important as individual contribution
+
+Woxsen League reinforced how thoughtful system design can simplify everyday campus problems.
